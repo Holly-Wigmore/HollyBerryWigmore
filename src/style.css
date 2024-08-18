@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.container {
+  margin: 80px 250px 0 250px;
+  border: 2px solid #bbe9db;
+  border-radius: 6px;
+  background: white;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  color: #9ba6a5;
+  font-size: 38px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  border: 5px solid #aeccc6;
+  border-radius: 20px;
+}
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #aeccc6;
+  border: 5px solid #9ba6a5;
+  border-radius: 20px;
+  margin: 10px 420px 10px 420px;
+  padding: 10px;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: #9ba6a5;
+  font-size: 20px;
+  margin: 10px 100px 10px 100px;
+}
+
+.qualifications {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #757a79;
+  text-align: left;
+}
+ul {
+  font-size: 20px;
+  font-weight: bold;
+}
+li {
+  font-size: 16px;
+  font-weight: 100px;
+}
+.projects {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #757a79;
+  text-align: left;
+}
+.github {
+  text-decoration: none;
+  color: #aeccc6;
+  font-weight: bold;
+}
+.github:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  color: #757a79;
+  margin-bottom: 10px;
+}
