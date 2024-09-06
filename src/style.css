@@ -2,16 +2,38 @@ body {
   background: #ece8d9;
   font-family: "Roboto", sans-serif;
 }
+.profile {
+  max-width: 200px;
+  margin: 0 auto;
+  display: flex;
+}
 
 .img-1 {
   max-width: 250px;
+  transition: all 150ms ease-in-out;
+}
+.img-1:hover {
+  transform: scale(1.3);
+}
+.primary-link {
+  display: block;
+  text-align: center;
+  background: #faf6e9;
+  border-radius: 4px;
+  font-size: 18px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 20px 15px;
+  color: black;
+}
+.primary-link:hover {
+  color: grey;
 }
 
 .email {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #fa6e9b;
+  color: black;
   font-weight: bold;
 }
 .email:hover {
