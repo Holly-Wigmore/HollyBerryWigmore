@@ -26,7 +26,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Holly Wigmore</a>
+        <a class="navbar-brand" href="index.html">Holly Wigmore</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,9 +49,7 @@
               <a class="nav-link" href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#certificates"
-                >Certificates</a
-              >
+              <a class="nav-link" href="work.html">My Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html#contact">Contact Me</a>
@@ -60,9 +58,11 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center m-2">Holly Wigmore</h1>
+    <div class="header">
+      <h1 class="text-center m-2">Holly Wigmore</h1>
 
-    <h2 class="text-center m-2">Front End Developer</h2>
+      <h2 class="text-center m-2">Junior Front-End Developer</h2>
+    </div>
     <div class="container">
       <img src="img/Holly2.jpg" class="profile rounded p-2 shadow" />
     </div>
@@ -70,20 +70,26 @@
       <p class="text-center m-3">
         Hello, I am Holly Wigmore and in 2024 I started my journey into coding.
         Having completed courses on FreeCodeCamp and SheCodes I have gained a
-        lot of knowledge in languages including Javascript and React. I hope to
-        continue learning with the aim to become a Front End Developer
+        lot of knowledge in languages including JavaScript and React.Js. I hope
+        to continue learning with the aim to become a Front End Developer.
       </p>
     </div>
     <div class="container mt-5">
       <div class="row">
-        <div class="col-sm-6">
-          <a class="primary-link" href="about.html#contact">Contact Me📪</a>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 d-flex justify-content-evenly">
+          <button class="btn btn-dark primary-link shadow">
+            <a href="about.html#contact">Contact Me📪</a>
+          </button>
         </div>
-        <div class="col-sm-6">
-          <a class="primary-link" href="https://github.com/Holly-Wigmore"
-            >GitHub👩‍💻</a
-          >
+        <div class="col-sm-3 d-flex justify-content-evenly">
+          <button class="btn btn-dark primary-link shadow">
+            <a target="_blank" href="https://github.com/Holly-Wigmore"
+              >GitHub👩‍💻</a
+            >
+          </button>
         </div>
+        <div class="col-sm-3"></div>
       </div>
     </div>
     <script src="src/script.js"></script>
